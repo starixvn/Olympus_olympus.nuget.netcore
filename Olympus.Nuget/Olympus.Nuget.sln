@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Xml", "Olympus.Xml\Olympus.Xml.csproj", "{8BA37D7C-3CA3-43EB-B7DB-23C57D631B38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olympus.CacheManipulator", "Olympus.CacheManipulator\Olympus.CacheManipulator.csproj", "{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8BA37D7C-3CA3-43EB-B7DB-23C57D631B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BA37D7C-3CA3-43EB-B7DB-23C57D631B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BA37D7C-3CA3-43EB-B7DB-23C57D631B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

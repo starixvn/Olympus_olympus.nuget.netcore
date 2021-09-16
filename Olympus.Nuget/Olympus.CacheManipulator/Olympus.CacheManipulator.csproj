@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;net5.0</TargetFrameworks>
+    <Authors>Carlos.nguyen</Authors>
+    <Company>Nexcel</Company>
+    <Description>Warpper action create, update, delete data to redis</Description>
+    <RepositoryUrl>git@gitlab.nexdev.net:Olympus/olympus.nuget.netcore.git</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fanex.Caching" Version="2.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
