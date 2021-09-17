@@ -41,7 +41,6 @@ namespace Olympus.SimpleDataApi
         }
 
         [Route("query")]
-        [HttpGet]
         public IActionResult Query(Dictionary<string, object> queryModel)
         {
             queryModel = queryModel ?? new Dictionary<string, object>();
@@ -103,7 +102,6 @@ namespace Olympus.SimpleDataApi
         }
 
         [Route("update")]
-        [HttpPost]
         public IActionResult Update(Dictionary<string, object> queryModel)
         {
             queryModel = queryModel ?? new Dictionary<string, object>();
