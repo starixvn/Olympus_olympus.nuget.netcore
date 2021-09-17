@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.SimpleDataApi", "Olympus.SimpleDataApi\Olympus.SimpleDataApi.csproj", "{A9CCAAC2-7340-40A2-8FC4-6D31E7C6BBAD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{42EBF5DB-C8A4-45AC-B403-CCB13E7CF4FB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.Xml", "Olympus.Xml\Olympus.Xml.csproj", "{8BA37D7C-3CA3-43EB-B7DB-23C57D631B38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.CacheManipulator", "Olympus.CacheManipulator\Olympus.CacheManipulator.csproj", "{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.SimpleDataApi.AspNetCore", "Olympus.SimpleDataApi.AspNetCore\Olympus.SimpleDataApi.AspNetCore.csproj", "{0D1DD6E5-2FB8-4E92-B770-347D81526241}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A9CCAAC2-7340-40A2-8FC4-6D31E7C6BBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9CCAAC2-7340-40A2-8FC4-6D31E7C6BBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9CCAAC2-7340-40A2-8FC4-6D31E7C6BBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9CCAAC2-7340-40A2-8FC4-6D31E7C6BBAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42EBF5DB-C8A4-45AC-B403-CCB13E7CF4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{42EBF5DB-C8A4-45AC-B403-CCB13E7CF4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42EBF5DB-C8A4-45AC-B403-CCB13E7CF4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +25,14 @@ Global
 		{8BA37D7C-3CA3-43EB-B7DB-23C57D631B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BA37D7C-3CA3-43EB-B7DB-23C57D631B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BA37D7C-3CA3-43EB-B7DB-23C57D631B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C964DD1-FDB7-467B-9AE6-7FB6D1B57426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1DD6E5-2FB8-4E92-B770-347D81526241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1DD6E5-2FB8-4E92-B770-347D81526241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1DD6E5-2FB8-4E92-B770-347D81526241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1DD6E5-2FB8-4E92-B770-347D81526241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
