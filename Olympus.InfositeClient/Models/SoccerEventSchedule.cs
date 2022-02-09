@@ -1,4 +1,4 @@
-﻿namespace Olympus.OWP.InfoSiteClient.Models;
+﻿namespace Olympus.InfoSiteClient.Models;
 public class SoccerEventSchedule : soccer_event_schedule
 {
     public string home_remark { get; set; }

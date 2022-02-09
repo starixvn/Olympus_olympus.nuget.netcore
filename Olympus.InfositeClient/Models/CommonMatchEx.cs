@@ -1,4 +1,4 @@
-﻿namespace Olympus.OWP.InfoSiteClient.Models;
+﻿namespace Olympus.InfoSiteClient.Models;
 // Model updated by Joy.Chang at 2018/10/26
 
 public class CommonSubMatch
@@ -82,7 +82,7 @@ public class CommonMatch : CommonSubMatch
     #endregion system statistics info
 
     #region other configs
-    public int league_type { get; set; }
+    public int? league_type { get; set; }
     // refer to mbc league_id
     public Int32 home_main_league_id { get; set; }
     // main league name
@@ -156,7 +156,7 @@ public class ChildMatch
     // Is link parent to child. if set true, this use for "child attribute follow parent when parent changed". BUT this function no implement due to requirement no need
     public Boolean is_link { get; set; }
     // 0:Child League, 1:ExtraTime, 2:Penalty Handicap 3:Penalty Over-Under
-    public int league_type { get; set; }
+    public int? league_type { get; set; }
     // Is delete.
     public Boolean is_delete { get; set; }
     // changed stamp

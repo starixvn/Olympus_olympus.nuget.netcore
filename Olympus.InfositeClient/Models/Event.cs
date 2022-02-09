@@ -1,7 +1,7 @@
 ﻿using System.Xml.Serialization;
-using Olympus.OWP.InfoSiteClient.Extensions.XMLExtensions;
+using Olympus.InfoSiteClient.Extensions.XMLExtensions;
 
-namespace Olympus.OWP.InfoSiteClient.Models;
+namespace Olympus.InfoSiteClient.Models;
 [Serializable]
 [XMLName("Row")]
 public class Event

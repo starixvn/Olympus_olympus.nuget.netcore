@@ -1,9 +1,9 @@
 ﻿using System.Text;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
-using Olympus.OWP.InfoSiteClient.Models;
+using Olympus.InfoSiteClient.Models;
 
-namespace Olympus.OWP.InfoSiteClient;
+namespace Olympus.InfoSiteClient;
 
 public interface IsLiveMatchApi
 {

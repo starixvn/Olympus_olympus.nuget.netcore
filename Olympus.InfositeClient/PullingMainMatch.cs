@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
-using Olympus.OWP.InfoSiteClient.Extensions;
-using Olympus.OWP.InfoSiteClient.Models;
+using Olympus.InfoSiteClient.Extensions;
+using Olympus.InfoSiteClient.Models;
 
-namespace Olympus.OWP.InfoSiteClient;
+namespace Olympus.InfoSiteClient;
 
 public class PullingMainMatch
 {

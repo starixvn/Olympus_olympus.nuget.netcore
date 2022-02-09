@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Olympus.OWP.InfoSiteClient.Extensions;
+namespace Olympus.InfoSiteClient.Extensions;
 
 public class TrimmingConverter : JsonConverter
 {

@@ -1,4 +1,4 @@
-﻿namespace Olympus.OWP.InfoSiteClient.Extensions.XMLExtensions;
+﻿namespace Olympus.InfoSiteClient.Extensions.XMLExtensions;
 
 [AttributeUsage(AttributeTargets.All)]
 public sealed class XMLName : Attribute

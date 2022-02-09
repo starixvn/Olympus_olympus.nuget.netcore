@@ -1,4 +1,4 @@
-﻿namespace Olympus.OWP.InfoSiteClient;
+﻿namespace Olympus.InfoSiteClient;
 
 public class IsLiveSynchronizedResult
 {
