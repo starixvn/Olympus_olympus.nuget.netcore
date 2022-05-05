@@ -9,7 +9,6 @@ public class PullingChildMatch
     public IList<ChildMatch> Query(string infoSiteAPI, DateTime from, DateTime to)
     {
         var stamp = DateTime.Today.AddYears(-10);
-        var matches = new List<ChildMatch>();
 
         using (var httpClient = new HttpClient())
         {
@@ -22,15 +21,15 @@ public class PullingChildMatch
             if (response.IsSuccessStatusCode)
             {
                 var jsonData = response.Content.ReadAsStringAsync().Result.ToString();
-                matches = JsonConvert.DeserializeObject<List<ChildMatch>>(jsonData, new TrimmingConverter());
+                var matches = JsonConvert.DeserializeObject<List<ChildMatch>>(jsonData, new TrimmingConverter());
 
-                return matches;
+                return matches?? new List<ChildMatch>();
             }
             else
             {
                 var responseText = response.Content.ReadAsStringAsync().Result.ToString();
                 var message = $"httpClient Error: {response.ReasonPhrase}. Response: {responseText}";
-                throw new Exception(message);
+                throw new HttpRequestException(message);
             }
         }
     }
