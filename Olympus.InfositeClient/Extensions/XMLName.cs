@@ -1,20 +1,25 @@
-﻿namespace Olympus.InfoSiteClient.Extensions.XMLExtensions;
+﻿using System;
 
-[AttributeUsage(AttributeTargets.All)]
-public sealed class XMLName : Attribute
+namespace Olympus.InfoSiteClient.Extensions.XMLExtensions
 {
-    private string name;
 
-    public XMLName(string name)
-    {
-        this.name = name;
-    }
 
-    public string Name
+    [AttributeUsage(AttributeTargets.All)]
+    public sealed class XMLName : Attribute
     {
-        get
+        private readonly string name;
+
+        public XMLName(string name)
         {
-            return name;
+            this.name = name;
+        }
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
         }
     }
 }

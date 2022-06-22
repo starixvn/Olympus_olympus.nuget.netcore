@@ -1,23 +1,26 @@
-﻿using Newtonsoft.Json;
+﻿using System;
+using Newtonsoft.Json;
 
-namespace Olympus.InfoSiteClient.Extensions;
-
-public class TrimmingConverter : JsonConverter
+namespace Olympus.InfoSiteClient.Extensions
 {
-    public override bool CanRead => true;
-    public override bool CanWrite => false;
 
-    public override bool CanConvert(Type objectType) => objectType == typeof(string);
-
-    public override object ReadJson(JsonReader reader, Type objectType,
-                                    object existingValue, JsonSerializer serializer)
+    public class TrimmingConverter : JsonConverter
     {
-        return ((string)reader.Value)?.Trim();
-    }
+        public override bool CanRead => true;
+        public override bool CanWrite => false;
 
-    public override void WriteJson(JsonWriter writer, object value,
-                                   JsonSerializer serializer)
-    {
-        throw new NotImplementedException();
+        public override bool CanConvert(Type objectType) => objectType == typeof(string);
+
+        public override object ReadJson(JsonReader reader, Type objectType,
+                                        object existingValue, JsonSerializer serializer)
+        {
+            return ((string)reader.Value)?.Trim();
+        }
+
+        public override void WriteJson(JsonWriter writer, object value,
+                                       JsonSerializer serializer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

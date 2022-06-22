@@ -1,10 +1,14 @@
-﻿namespace Olympus.InfoSiteClient;
+﻿using System.Collections.Generic;
 
-public class IsLiveSynchronizedResult
+namespace Olympus.InfoSiteClient
 {
-    public List<(int, int?)> FailedMatches { get; set; }
 
-    public List<(int, int?)> SuccessfulMatches { get; set; }
+    public class IsLiveSynchronizedResult
+    {
+        public List<(int, int?)> FailedMatches { get; set; }
 
-    public string ErrorMessage { get; set; }
+        public List<(int, int?)> SuccessfulMatches { get; set; }
+
+        public string ErrorMessage { get; set; }
+    }
 }

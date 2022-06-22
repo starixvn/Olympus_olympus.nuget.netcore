@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.InfositeClient", "Olympus.InfositeClient.csproj", "{23A4EADE-0FE1-41A6-85E1-64FB5CEDC33A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23A4EADE-0FE1-41A6-85E1-64FB5CEDC33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A4EADE-0FE1-41A6-85E1-64FB5CEDC33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A4EADE-0FE1-41A6-85E1-64FB5CEDC33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A4EADE-0FE1-41A6-85E1-64FB5CEDC33A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {198D903B-D229-4908-BEDD-BE7B54A848A6}
+	EndGlobalSection
+EndGlobal
