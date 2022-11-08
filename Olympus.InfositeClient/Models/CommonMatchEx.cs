@@ -165,6 +165,10 @@ namespace Olympus.InfoSiteClient.Models
         public Boolean is_delete { get; set; }
         // changed stamp
         public DateTime stamp { get; set; }
+
+        public int? main_type { get; set; }
+
+        public int? sub_type { get; set; }
         #endregion child match info
     }
 }
