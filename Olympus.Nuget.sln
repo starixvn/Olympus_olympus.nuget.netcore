@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30711.63
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{42EBF5DB-C8A4-45AC-B403-CCB13E7CF4FB}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.SimpleDataApi.AspNetCore", "Olympus.SimpleDataApi.AspNetCore\Olympus.SimpleDataApi.AspNetCore.csproj", "{0D1DD6E5-2FB8-4E92-B770-347D81526241}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.OWP.Constants", "Olympus.OWP.Constants\Olympus.OWP.Constants.csproj", "{2FC8EA85-53B2-4AD1-A0E8-D7CAC3D782EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.InfositeClient", "Olympus.InfositeClient\Olympus.InfositeClient.csproj", "{ABE499D3-69D4-4483-B608-763314114A50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2FC8EA85-53B2-4AD1-A0E8-D7CAC3D782EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC8EA85-53B2-4AD1-A0E8-D7CAC3D782EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FC8EA85-53B2-4AD1-A0E8-D7CAC3D782EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE499D3-69D4-4483-B608-763314114A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE499D3-69D4-4483-B608-763314114A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE499D3-69D4-4483-B608-763314114A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE499D3-69D4-4483-B608-763314114A50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
