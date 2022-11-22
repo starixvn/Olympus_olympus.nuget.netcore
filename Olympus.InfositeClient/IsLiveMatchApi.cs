@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Olympus.InfoSiteClient.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
-using Olympus.InfoSiteClient.Models;
 
 namespace Olympus.InfoSiteClient
 {
@@ -121,7 +121,7 @@ namespace Olympus.InfoSiteClient
             return (int.Parse(elements[0]), null);
         }
 
-        private static int? ParseSubtype(string result)
+        public static int? ParseSubtype(string result)
         {
             if (!string.IsNullOrEmpty(result))
             {
@@ -129,6 +129,12 @@ namespace Olympus.InfoSiteClient
                 var fromText = " from";
                 var pFrom = result.IndexOf(subtypeText) + subtypeText.Length;
                 var pTo = result.IndexOf(fromText);
+                var subStringLength = pTo - pFrom;
+                if (subStringLength < 0)
+                {
+                    return null;
+                }
+
                 var subType = result.Substring(pFrom, pTo - pFrom);
 
                 if (!string.IsNullOrWhiteSpace(subType))
