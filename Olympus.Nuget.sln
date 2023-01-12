@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.CacheManipulator", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePackTools", "MessagePackTools\MessagePackTools.csproj", "{E01FDC1A-295B-4D58-B5C0-FA8EF0DCC6F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.SimpleDataApi.AspNetCore", "Olympus.SimpleDataApi.AspNetCore\Olympus.SimpleDataApi.AspNetCore.csproj", "{0D1DD6E5-2FB8-4E92-B770-347D81526241}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.OWP.Constants", "Olympus.OWP.Constants\Olympus.OWP.Constants.csproj", "{2FC8EA85-53B2-4AD1-A0E8-D7CAC3D782EA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olympus.InfositeClient", "Olympus.InfositeClient\Olympus.InfositeClient.csproj", "{FCC6365B-775A-46FA-9430-658C8F1D8F7C}"
@@ -41,10 +39,6 @@ Global
 		{E01FDC1A-295B-4D58-B5C0-FA8EF0DCC6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E01FDC1A-295B-4D58-B5C0-FA8EF0DCC6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E01FDC1A-295B-4D58-B5C0-FA8EF0DCC6F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D1DD6E5-2FB8-4E92-B770-347D81526241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D1DD6E5-2FB8-4E92-B770-347D81526241}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D1DD6E5-2FB8-4E92-B770-347D81526241}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D1DD6E5-2FB8-4E92-B770-347D81526241}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2FC8EA85-53B2-4AD1-A0E8-D7CAC3D782EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2FC8EA85-53B2-4AD1-A0E8-D7CAC3D782EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC8EA85-53B2-4AD1-A0E8-D7CAC3D782EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
