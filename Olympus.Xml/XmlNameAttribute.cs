@@ -2,7 +2,7 @@
 
 namespace Olympus.Xml
 {
-    [AttributeUsage(AttributeTargets.Property)]
+    [AttributeUsage(AttributeTargets.All)]
     public class XmlNameAttribute : Attribute
     {
         public XmlNameAttribute(string name)

@@ -1,12 +1,18 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 
 namespace Test
 {
+    using Olympus.Xml;
+
+    [Serializable]
+    [XmlName("Row")]
     public class MyData
     {
         public int Id { get; set; }
 
+        [XmlName("Jacob")]
         public string Name { get; set; }
     }
 
@@ -14,14 +20,12 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var dictionary = new Dictionary<string, object>
+            var list = new List<MyData>
             {
-                { "id" , 1 },
-                { "Name" , "Cob" }
+                new MyData { Id = 1, Name = "A" }
             };
 
-            var json = JsonConvert.SerializeObject(dictionary);
-            var criteria = JsonConvert.DeserializeObject(json, typeof(MyData));
+            var text = XmlConverter.Serialize(list);
         }
     }
 }
