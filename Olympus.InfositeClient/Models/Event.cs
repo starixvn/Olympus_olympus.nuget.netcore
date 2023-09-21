@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Xml.Serialization;
-using Olympus.InfoSiteClient.Extensions.XMLExtensions;
+using Olympus.Xml;
 
 namespace Olympus.InfoSiteClient.Models
 {
 
     [Serializable]
-    [XMLName("Row")]
+    [XmlName("Row")]
     public class Event
     {
         private readonly static DateTime MinDate = new DateTime(2000, 1, 1);
