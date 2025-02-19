@@ -1,7 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net461;net5.0</TargetFrameworks>
-		<Version>1.0.0.3</Version>
+		<TargetFrameworks>net9.0</TargetFrameworks>
+		<Version>9.0.0.3</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>olympus.OWP.Constants</PackageId>
+		<Authors>Carlos.nguyen</Authors>
+		<Description>Add event picking update type
+Upgrade to net 9</Description>
+		<Title>olympus.OWP.Constants</Title>
+		<Company>Nexcel</Company>
+		<Product>olympus.OWP.Constants</Product>
 	</PropertyGroup>
 </Project>
