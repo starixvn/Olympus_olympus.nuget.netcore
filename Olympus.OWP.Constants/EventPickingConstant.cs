@@ -54,5 +54,7 @@
         public const short UPDATE_NEUTRAL = 50;
         public const short CANCEL_NEUTRAL = 51;
         public const short MATCH_SUSPENDED = 52;
+        public const short UPDATE_REMARK2 = 53;
+        public const short CANCEL_REMARK2 = 54;
     }
 }
