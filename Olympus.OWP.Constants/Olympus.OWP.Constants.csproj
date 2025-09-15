@@ -2,12 +2,11 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net9.0</TargetFrameworks>
-		<Version>9.0.0.7</Version>
+		<Version>9.0.0.10</Version>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>Olympus.OWP.Constants</PackageId>
 		<Authors>Carlos.nguyen</Authors>
-		<Description>Add event picking update type
-Upgrade to net 9</Description>
+		<Description>Update the Match Offer</Description>
 		<Title>Olympus.OWP.Constants</Title>
 		<Company>Nexcel</Company>
 		<Product>Olympus.OWP.Constants</Product>

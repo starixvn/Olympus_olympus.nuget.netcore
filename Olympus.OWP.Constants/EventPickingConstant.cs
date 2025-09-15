@@ -63,6 +63,11 @@ namespace Olympus.OWP.Constants
         public const short CANCEL_PROVIDER = 56;
         public const short UPDATE_TOTAL_ROUND = 57;
         public const short CANCEL_TOTAL_ROUND = 58;
+        public const short UPDATE_HOME_BAD_RANKING = 59;
+        public const short UPDATE_AWAY_BAD_RANKING = 60;
+        public const short UPDATE_HOME_RELEGATION = 61;
+        public const short UPDATE_AWAY_RELEGATION = 62;
+        public const short UPDATE_MATCH_OFFER = 63;
 
         public static readonly IImmutableDictionary<int, string> UpdateType = new Dictionary<int, string>
         {
@@ -123,7 +128,12 @@ namespace Olympus.OWP.Constants
             { UPDATE_PROVIDER, "Update the <b>Provider</b>" },
             { CANCEL_PROVIDER, "Cancel the <b>Provider</b>" },
             { UPDATE_TOTAL_ROUND, "Update the <b>Total Round</b>" },
-            { CANCEL_TOTAL_ROUND, "Cancel the <b>Total Round</b>" }
+            { CANCEL_TOTAL_ROUND, "Cancel the <b>Total Round</b>" },
+            { UPDATE_HOME_BAD_RANKING , "Update the <b>Home Bad Ranking</b>" },
+            { UPDATE_AWAY_BAD_RANKING , "Update the <b>Away Bad Ranking</b>" },
+            { UPDATE_HOME_RELEGATION, "Update the <b>Home Relegation</b>" },
+            { UPDATE_AWAY_RELEGATION, "Update the <b>Away Relegation</b>" },
+            { UPDATE_MATCH_OFFER , "Update the <strong>Match Offer</strong>" }
         }.ToImmutableDictionary();
     }
 }
